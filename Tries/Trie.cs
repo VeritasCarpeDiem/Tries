@@ -25,7 +25,7 @@ namespace Tries
             {
                 var letter = word[i];
 
-                if(children.ContainsKey(letter))
+                if (children.ContainsKey(letter))
                 {
                     tempNode = children[letter];
                 }
@@ -35,13 +35,16 @@ namespace Tries
                     children.Add(letter, tempNode);
                 }
                 children = tempNode.Children;
-
+                tempNode.IsWord = true;
             }
         }
         public bool Contains(string word)
         {
             var nodeToSearch = SearchNode(word);
-
+            if (nodeToSearch != null && nodeToSearch.IsWord)
+            {
+                return true;
+            }
             return false;
         }
 
@@ -52,7 +55,7 @@ namespace Tries
 
             foreach (var letter in word)
             {
-                if(children.ContainsKey(letter))
+                if (children.ContainsKey(letter))
                 {
                     tempNode = children[letter];
                     children = tempNode.Children;
@@ -65,12 +68,44 @@ namespace Tries
             return tempNode;
         }
 
-        public void Remove()
+        public bool Remove(string prefix)
         {
-            var children = root.Children;
-            foreach (var letter in children)
+            var nodeToSearch = SearchNode(prefix);
+
+            if (nodeToSearch != null || prefix.Length != 0)
             {
-                
+                return true;
+            }
+            nodeToSearch.IsWord = false;
+            return false;
+        }
+
+        public List<string> GetAllMatchingPrefix(string prefix)
+        {
+            List<string> allWordsWithPrefix = new List<string>();
+
+            var node = SearchNode(prefix);
+
+            GetAllWords(node, allWordsWithPrefix, prefix );
+
+            return allWordsWithPrefix;
+        }
+
+        private void GetAllWords(TrieNode node, List<string> allWords, string prefix)
+        {
+            if (node == null)
+            {
+                return;
+            }
+
+            foreach ((char letter, TrieNode tempNode) in node.Children)
+            {
+                GetAllWords(tempNode, allWords, prefix+node.Letter);
+            }
+
+            if (node.IsWord)
+            {
+                allWords.Add(prefix);
             }
         }
     }

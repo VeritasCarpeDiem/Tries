@@ -171,6 +171,16 @@
             "rid": "win"
           }
         }
+      },
+      "SharedLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/SharedLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SharedLibrary.dll": {}
+        }
       }
     }
   },
@@ -482,11 +492,17 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "SharedLibrary/1.0.0": {
+      "type": "project",
+      "path": "../SharedLibrary/SharedLibrary.csproj",
+      "msbuildProject": "../SharedLibrary/SharedLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "NPOI >= 2.5.3"
+      "NPOI >= 2.5.3",
+      "SharedLibrary >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -522,7 +538,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\SharedLibrary\\SharedLibrary.csproj": {
+              "projectPath": "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\SharedLibrary\\SharedLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

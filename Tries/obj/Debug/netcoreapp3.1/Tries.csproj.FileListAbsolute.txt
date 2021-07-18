@@ -27,3 +27,5 @@
 \\GMRDC1\Folder Redirection\jin.kim\Documents\Visual Studio 2019\Projects\Tries\Tries\obj\Debug\netcoreapp3.1\Tries.dll
 \\GMRDC1\Folder Redirection\jin.kim\Documents\Visual Studio 2019\Projects\Tries\Tries\obj\Debug\netcoreapp3.1\Tries.pdb
 \\GMRDC1\Folder Redirection\jin.kim\Documents\Visual Studio 2019\Projects\Tries\Tries\obj\Debug\netcoreapp3.1\Tries.genruntimeconfig.cache
+\\GMRDC1\Folder Redirection\jin.kim\Documents\Visual Studio 2019\Projects\Tries\Tries\bin\Debug\netcoreapp3.1\SharedLibrary.dll
+\\GMRDC1\Folder Redirection\jin.kim\Documents\Visual Studio 2019\Projects\Tries\Tries\bin\Debug\netcoreapp3.1\SharedLibrary.pdb

@@ -1810,11 +1810,22 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
+      "SharedLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/SharedLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SharedLibrary.dll": {}
+        }
+      },
       "Tries/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "NPOI": "2.5.3"
+          "NPOI": "2.5.3",
+          "SharedLibrary": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Tries.dll": {}
@@ -6025,6 +6036,11 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
+    "SharedLibrary/1.0.0": {
+      "type": "project",
+      "path": "../SharedLibrary/SharedLibrary.csproj",
+      "msbuildProject": "../SharedLibrary/SharedLibrary.csproj"
+    },
     "Tries/1.0.0": {
       "type": "project",
       "path": "../Tries/Tries.csproj",
@@ -6034,6 +6050,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.NET.Test.Sdk >= 16.7.1",
+      "SharedLibrary >= 1.0.0",
       "Tries >= 1.0.0",
       "coverlet.collector >= 1.3.0",
       "xunit >= 2.4.1",
@@ -6074,6 +6091,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\SharedLibrary\\SharedLibrary.csproj": {
+              "projectPath": "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\SharedLibrary\\SharedLibrary.csproj"
+            },
             "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\Tries\\Tries.csproj": {
               "projectPath": "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\Tries\\Tries.csproj"
             }

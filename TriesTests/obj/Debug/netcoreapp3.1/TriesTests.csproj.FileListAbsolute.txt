@@ -113,3 +113,5 @@
 \\GMRDC1\Folder Redirection\jin.kim\Documents\Visual Studio 2019\Projects\Tries\TriesTests\obj\Debug\netcoreapp3.1\TriesTests.dll
 \\GMRDC1\Folder Redirection\jin.kim\Documents\Visual Studio 2019\Projects\Tries\TriesTests\obj\Debug\netcoreapp3.1\TriesTests.pdb
 \\GMRDC1\Folder Redirection\jin.kim\Documents\Visual Studio 2019\Projects\Tries\TriesTests\obj\Debug\netcoreapp3.1\TriesTests.genruntimeconfig.cache
+\\GMRDC1\Folder Redirection\jin.kim\Documents\Visual Studio 2019\Projects\Tries\TriesTests\bin\Debug\netcoreapp3.1\SharedLibrary.dll
+\\GMRDC1\Folder Redirection\jin.kim\Documents\Visual Studio 2019\Projects\Tries\TriesTests\bin\Debug\netcoreapp3.1\SharedLibrary.pdb

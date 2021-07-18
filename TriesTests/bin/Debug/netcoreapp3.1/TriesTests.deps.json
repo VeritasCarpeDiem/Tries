@@ -9,6 +9,7 @@
       "TriesTests/1.0.0": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "16.7.1",
+          "SharedLibrary": "1.0.0",
           "Tries": "1.0.0",
           "coverlet.collector": "1.3.0",
           "xunit": "2.4.1",
@@ -1225,9 +1226,15 @@
         }
       },
       "xunit.runner.visualstudio/2.4.3": {},
+      "SharedLibrary/1.0.0": {
+        "runtime": {
+          "SharedLibrary.dll": {}
+        }
+      },
       "Tries/1.0.0": {
         "dependencies": {
-          "NPOI": "2.5.3"
+          "NPOI": "2.5.3",
+          "SharedLibrary": "1.0.0"
         },
         "runtime": {
           "Tries.dll": {}
@@ -1947,6 +1954,11 @@
       "sha512": "sha512-kZZSmOmKA8OBlAJaquPXnJJLM9RwQ27H7BMVqfMLUcTi9xHinWGJiWksa3D4NEtz0wZ/nxd2mogObvBgJKCRhQ==",
       "path": "xunit.runner.visualstudio/2.4.3",
       "hashPath": "xunit.runner.visualstudio.2.4.3.nupkg.sha512"
+    },
+    "SharedLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Tries/1.0.0": {
       "type": "project",
