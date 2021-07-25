@@ -6,7 +6,7 @@ namespace Tries
 {
     public class Trie
     {
-        private TrieNode root;
+        public TrieNode root;
         public void Clear()
         {
             root = new TrieNode('S');
@@ -34,7 +34,7 @@ namespace Tries
                     tempNode = new TrieNode(letter);
                     children.Add(letter, tempNode);
                 }
-                children = tempNode.Children;
+                children = tempNode.Children; //set original dic to temp dic
                 tempNode.IsWord = true;
             }
         }
@@ -74,9 +74,10 @@ namespace Tries
 
             if (nodeToSearch != null || prefix.Length != 0)
             {
+                nodeToSearch.IsWord = false;
                 return true;
             }
-            nodeToSearch.IsWord = false;
+
             return false;
         }
 
@@ -86,27 +87,27 @@ namespace Tries
 
             var node = SearchNode(prefix);
 
-            GetAllWords(node, allWordsWithPrefix, prefix );
+            allWordsWithPrefix = GetAllWords(node, allWordsWithPrefix, prefix);
+
+            
 
             return allWordsWithPrefix;
         }
 
-        private void GetAllWords(TrieNode node, List<string> allWords, string prefix)
+        private List<string> GetAllWords(TrieNode node, List<string> allWords, string prefix)
         {
-            if (node == null)
-            {
-                return;
-            }
 
             foreach ((char letter, TrieNode tempNode) in node.Children)
             {
-                GetAllWords(tempNode, allWords, prefix+node.Letter);
+                GetAllWords(tempNode, allWords, prefix + letter);
             }
 
             if (node.IsWord)
             {
                 allWords.Add(prefix);
             }
+
+            return allWords;
         }
     }
 }

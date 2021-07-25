@@ -507,21 +507,19 @@
   },
   "packageFolders": {
     "C:\\Users\\Jin.Kim\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\Tries\\Tries.csproj",
+      "projectUniqueName": "\\\\GMRDC1\\Folder Redirection\\Jin.Kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\Tries\\Tries.csproj",
       "projectName": "Tries",
-      "projectPath": "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\Tries\\Tries.csproj",
+      "projectPath": "\\\\GMRDC1\\Folder Redirection\\Jin.Kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\Tries\\Tries.csproj",
       "packagesPath": "C:\\Users\\Jin.Kim\\.nuget\\packages\\",
-      "outputPath": "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\Tries\\obj\\",
+      "outputPath": "\\\\GMRDC1\\Folder Redirection\\Jin.Kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\Tries\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\Jin.Kim\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -539,8 +537,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\SharedLibrary\\SharedLibrary.csproj": {
-              "projectPath": "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\SharedLibrary\\SharedLibrary.csproj"
+            "\\\\GMRDC1\\Folder Redirection\\Jin.Kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\SharedLibrary\\SharedLibrary.csproj": {
+              "projectPath": "\\\\GMRDC1\\Folder Redirection\\Jin.Kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\SharedLibrary\\SharedLibrary.csproj"
             }
           }
         }

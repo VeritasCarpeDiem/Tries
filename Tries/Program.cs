@@ -14,39 +14,34 @@ namespace Tries
         {
             string file= System.IO.File.ReadAllText("fulldictionary.json");
           
-            dictionary= JsonSerializer.Deserialize<Dictionary<string,string>>(file);
+            dictionary = JsonSerializer.Deserialize<Dictionary<string,string>>(file);
 
             #region Trie
             Trie trie = new Trie();
 
-            //foreach (var item in dictionary.Keys)
-            //{
-            //    trie.Insert(item);
-            //}
-            #endregion
-            ;
-
             trie.Insert("hello");
             trie.Insert("hey");
             trie.Insert("heaven");
-            trie.Insert("babe");
-            trie.Insert("baby");
 
-            var list = trie.GetAllMatchingPrefix("h");
+            trie.Remove("he");
 
-            foreach (var item in list)
-            {
-                Console.WriteLine(item);
-            }
+            //var list = trie.GetAllMatchingPrefix("h");
 
-            ;
+            //foreach (var item in list)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+
+            #endregion
+
             int[] arr = new int[] { 1, 3, 4 };
 
             string[] stringArr= arr.Where(x => x > 2).Select(x => x.ToString()).ToArray();
 
             arr = stringArr.SelectDemo();
-
-                         
+            
             ;
         }
     }
