@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "\\\\GMRDC1\\Folder Redirection\\Jin.Kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\TriesTests\\TriesTests.csproj": {}
+    "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\TriesTests\\TriesTests.csproj": {}
   },
   "projects": {
-    "\\\\GMRDC1\\Folder Redirection\\Jin.Kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\SharedLibrary\\SharedLibrary.csproj": {
+    "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\SharedLibrary\\SharedLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\GMRDC1\\Folder Redirection\\Jin.Kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\SharedLibrary\\SharedLibrary.csproj",
+        "projectUniqueName": "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\SharedLibrary\\SharedLibrary.csproj",
         "projectName": "SharedLibrary",
-        "projectPath": "\\\\GMRDC1\\Folder Redirection\\Jin.Kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\SharedLibrary\\SharedLibrary.csproj",
-        "packagesPath": "C:\\Users\\Jin.Kim\\.nuget\\packages\\",
-        "outputPath": "\\\\GMRDC1\\Folder Redirection\\Jin.Kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\SharedLibrary\\obj\\",
+        "projectPath": "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\SharedLibrary\\SharedLibrary.csproj",
+        "packagesPath": "C:\\Users\\jin.kim\\.nuget\\packages\\",
+        "outputPath": "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\SharedLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jin.Kim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jin.kim\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -65,20 +66,21 @@
         }
       }
     },
-    "\\\\GMRDC1\\Folder Redirection\\Jin.Kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\TriesTests\\TriesTests.csproj": {
+    "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\TriesTests\\TriesTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\GMRDC1\\Folder Redirection\\Jin.Kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\TriesTests\\TriesTests.csproj",
+        "projectUniqueName": "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\TriesTests\\TriesTests.csproj",
         "projectName": "TriesTests",
-        "projectPath": "\\\\GMRDC1\\Folder Redirection\\Jin.Kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\TriesTests\\TriesTests.csproj",
-        "packagesPath": "C:\\Users\\Jin.Kim\\.nuget\\packages\\",
-        "outputPath": "\\\\GMRDC1\\Folder Redirection\\Jin.Kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\TriesTests\\obj\\",
+        "projectPath": "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\TriesTests\\TriesTests.csproj",
+        "packagesPath": "C:\\Users\\jin.kim\\.nuget\\packages\\",
+        "outputPath": "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\TriesTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jin.Kim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jin.kim\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -93,11 +95,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "\\\\GMRDC1\\Folder Redirection\\Jin.Kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\SharedLibrary\\SharedLibrary.csproj": {
-                "projectPath": "\\\\GMRDC1\\Folder Redirection\\Jin.Kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\SharedLibrary\\SharedLibrary.csproj"
+              "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\SharedLibrary\\SharedLibrary.csproj": {
+                "projectPath": "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\SharedLibrary\\SharedLibrary.csproj"
               },
-              "\\\\GMRDC1\\Folder Redirection\\Jin.Kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\Tries\\Tries.csproj": {
-                "projectPath": "\\\\GMRDC1\\Folder Redirection\\Jin.Kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\Tries\\Tries.csproj"
+              "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\Tries\\Tries.csproj": {
+                "projectPath": "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\Tries\\Tries.csproj"
               }
             }
           }
@@ -152,20 +154,21 @@
         }
       }
     },
-    "\\\\GMRDC1\\Folder Redirection\\Jin.Kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\Tries\\Tries.csproj": {
+    "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\Tries\\Tries.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\GMRDC1\\Folder Redirection\\Jin.Kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\Tries\\Tries.csproj",
+        "projectUniqueName": "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\Tries\\Tries.csproj",
         "projectName": "Tries",
-        "projectPath": "\\\\GMRDC1\\Folder Redirection\\Jin.Kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\Tries\\Tries.csproj",
-        "packagesPath": "C:\\Users\\Jin.Kim\\.nuget\\packages\\",
-        "outputPath": "\\\\GMRDC1\\Folder Redirection\\Jin.Kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\Tries\\obj\\",
+        "projectPath": "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\Tries\\Tries.csproj",
+        "packagesPath": "C:\\Users\\jin.kim\\.nuget\\packages\\",
+        "outputPath": "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\Tries\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jin.Kim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jin.kim\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -180,8 +183,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "\\\\GMRDC1\\Folder Redirection\\Jin.Kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\SharedLibrary\\SharedLibrary.csproj": {
-                "projectPath": "\\\\GMRDC1\\Folder Redirection\\Jin.Kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\SharedLibrary\\SharedLibrary.csproj"
+              "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\SharedLibrary\\SharedLibrary.csproj": {
+                "projectPath": "\\\\GMRDC1\\Folder Redirection\\jin.kim\\Documents\\Visual Studio 2019\\Projects\\Tries\\SharedLibrary\\SharedLibrary.csproj"
               }
             }
           }

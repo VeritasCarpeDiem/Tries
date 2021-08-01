@@ -89,8 +89,6 @@ namespace Tries
 
             allWordsWithPrefix = GetAllWords(node, allWordsWithPrefix, prefix);
 
-            
-
             return allWordsWithPrefix;
         }
 
